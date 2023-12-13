@@ -12,10 +12,10 @@ if ($_SESSION['RollNo']) {
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>LMS</title>
+        <title>RBTC</title>
         <link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-        <link type="text/css" href="css/theme.css" rel="stylesheet">
+        <link type="text/css" href="css/themes.css" rel="stylesheet">
         <link type="text/css" href="images/icons/css/font-awesome.css" rel="stylesheet">
         <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'
             rel='stylesheet'>
@@ -25,7 +25,7 @@ if ($_SESSION['RollNo']) {
             <div class="navbar-inner">
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
-                        <i class="icon-reorder shaded"></i></a><a class="brand" href="index.php">LMS </a>
+                        <i class="icon-reorder shaded"></i></a><a class="brand" href="index.php">RBTC </a>
                     <div class="nav-collapse collapse navbar-inverse-collapse">
                         <ul class="nav pull-right">
                             <li class="nav-user dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -133,7 +133,7 @@ if ($_SESSION['RollNo']) {
         </div>
 <div class="footer">
             <div class="container">
-                <b class="copyright">&copy; 2018 Library Management System </b>All rights reserved.
+                <b class="copyright">&copy; 2023 FWD Library </b>All rights reserved.
             </div>
         </div>
 

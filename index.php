@@ -9,7 +9,7 @@ require('dbconn.php');
 
 <head>
 
-	<title>Library Management System </title>
+	<title>RBTC | Ruang Baca TC </title>
 
 	
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +18,7 @@ require('dbconn.php');
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	
 
-	 <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+	 <link rel="stylesheet" href="css/styles.css" type="text/css">
 
 	
 		<link href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
@@ -26,9 +26,10 @@ require('dbconn.php');
 
 </head>
 
-<body>
+<body style="background: url('images/new_background.jpg') center center fixed; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
 
-	<h1>LIBRARY MANAGEMENT SYSTEM</h1>
+
+	<h1>RUANG BACA TC</h1>
 
 	<div class="container">
 
@@ -57,7 +58,7 @@ require('dbconn.php');
 				<input type="text" Name="PhoneNumber" placeholder="Phone Number" required>
 				<input type="text" Name="RollNo" placeholder="Roll Number" required="">
 				
-				<select name="Category" id="Category">
+				<select name="Category" id="Category" class="bg-black">
 					<option value="GEN">General</option>
 					<option value="OBC">OBC</option>
 					<option value="SC">SC</option>
@@ -71,7 +72,6 @@ require('dbconn.php');
 			    <input type="submit" name="signup" value="Sign Up">
 			    </form>
 			</div>
-			<p>By creating an account, you agree to our <a class="underline" href="terms.html">Terms</a></p>
 			<div class="clear"></div>
 		</div>
 
@@ -80,7 +80,7 @@ require('dbconn.php');
 	</div>
 
 	<div class="footer w3layouts agileits">
-		<p> &copy; 2018 Library Member Login. All Rights Reserved </a></p>
+		<p> &copy; 2023 FWD Library. All Rights Reserved </a></p>
 		
 	</div>
 
