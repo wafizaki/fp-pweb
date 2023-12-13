@@ -33,20 +33,15 @@ if ($_SESSION['RollNo']) {
                                 <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="index.php">Your Profile</a></li>
-                                    <!--li><a href="#">Edit Profile</a></li>
-                                    <li><a href="#">Account Settings</a></li-->
                                     <li class="divider"></li>
                                     <li><a href="logout.php">Logout</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
-                    <!-- /.nav-collapse -->
                 </div>
             </div>
-            <!-- /navbar-inner -->
         </div>
-        <!-- /navbar -->
         <div class="wrapper">
             <div class="container">
                 <div class="row">
@@ -69,10 +64,7 @@ if ($_SESSION['RollNo']) {
                                 <li><a href="logout.php"><i class="menu-icon icon-signout"></i>Logout </a></li>
                             </ul>
                         </div>
-                        <!--/.sidebar-->
                     </div>
-                    <!--/.span3-->
-
                     <div class="span9">
                         <form class="form-horizontal row-fluid" action="current.php" method="post">
                                         <div class="control-group">
@@ -113,12 +105,8 @@ if ($_SESSION['RollNo']) {
                                     </tr>
                                   </thead>
                                   <tbody>
-
                                 <?php
 
-                            
-
-                            //$result=$conn->query($sql);
                             while($row=$result->fetch_assoc())
                             {
                                 $rollno=$row['RollNo'];
@@ -147,10 +135,9 @@ if ($_SESSION['RollNo']) {
                                 </table>
                     </div>
 
-                    <!--/.span9-->
                 </div>
             </div>
-            <!--/.container-->
+
         </div>
 <div class="footer">
             <div class="container">
@@ -158,7 +145,7 @@ if ($_SESSION['RollNo']) {
             </div>
         </div>
         
-        <!--/.wrapper-->
+
         <script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
         <script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
         <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
