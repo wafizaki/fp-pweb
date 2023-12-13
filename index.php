@@ -6,28 +6,26 @@ require('dbconn.php');
 <!DOCTYPE html>
 <html>
 
-<!-- Head -->
+
 <head>
 
 	<title>Library Management System </title>
 
-	<!-- Meta-Tags -->
+	
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="keywords" content="Library Member Login Form Widget Responsive, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design" />
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	<!-- //Meta-Tags -->
+	
 
-	<!-- Style --> <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+	 <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 
-	<!-- Fonts -->
+	
 		<link href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-	<!-- //Fonts -->
+
 
 </head>
-<!-- //Head -->
 
-<!-- Body -->
 <body>
 
 	<h1>LIBRARY MANAGEMENT SYSTEM</h1>
@@ -42,7 +40,7 @@ require('dbconn.php');
 			
 			
 			<div class="send-button">
-				<!--<form>-->
+				
 					<input type="submit" name="signin"; value="Sign In">
 				</form>
 			</div>
@@ -99,7 +97,7 @@ $row = $result->fetch_assoc();
 $x=$row['Password'];
 $y=$row['Type'];
 if(strcasecmp($x,$p)==0 && !empty($u) && !empty($p))
-  {//echo "Login Successful";
+  {
    $_SESSION['RollNo']=$u;
    
 
@@ -131,7 +129,7 @@ if(isset($_POST['signup']))
 	if ($conn->query($sql) === TRUE) {
 echo "<script type='text/javascript'>alert('Registration Successful')</script>";
 } else {
-    //echo "Error: " . $sql . "<br>" . $conn->error;
+   
 echo "<script type='text/javascript'>alert('User Exists')</script>";
 }
 }
@@ -139,6 +137,6 @@ echo "<script type='text/javascript'>alert('User Exists')</script>";
 ?>
 
 </body>
-<!-- //Body -->
+
 
 </html>
